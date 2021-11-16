@@ -46,7 +46,7 @@ The data can be used:
 
 - NLP analysis projects.
 
-- Devices evaluation, by health authorities, the hospital, medical company, field service biomedical engineers. to 
+- Devices evaluation, by health authorities, the hospital, medical company, field service biomedical engineers. 
 
 ## Installation
 
@@ -59,7 +59,7 @@ devtools::install_github("sahar979/MedDevices")
 ## Enhancement
 
 Further improvement can be done to:
-- Add more devices and more information about the device
+- Add some function to the package to make the EDA easy.
 - Add quantity in commerce variable and formalize it (numeric, same matrices)
 - Use local data from Saudi Food and Drug Authority (SFDA)
 
