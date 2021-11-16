@@ -5,7 +5,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 ## Overview
-MedDevices is a data package has data set of medical devices and medical devices recall details. The source of data is The United States Food and Drug Administration (FDA). The data represents the devices distributed over 13 classifications and the details of the posted recall for each device.
+MedDevices is a data package has data set of medical devices and medical devices recall details. The source of data is The United States Food and Drug Administration (FDA). The data represents the devices distributed over 16 classifications and the details of the posted recall for each device.
 
 ## Data Variables
 
@@ -13,7 +13,7 @@ MedDevices is a data package has data set of medical devices and medical devices
 
 `device_name` Name of the device.
 
-`device_classification` The class of the device base on hospital department that the device used in.It include 13 classes.
+`device_classification` The class of the device base on hospital department that the device used in.It include 16 classes.
 
 `manufacturers_name` Name of device's manufacturer.
 
