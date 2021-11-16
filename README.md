@@ -56,6 +56,12 @@ You can install the development version of MedDevices from [GitHub](https://gith
 # install.packages("devtools")
 devtools::install_github("sahar979/MedDevices")
 ```
+## Enhancement
+
+Further improvement can be done to:
+- Add more devices and more information about the device
+- Add quantity in commerce variable and formalize it (numeric, same matrices)
+- Use local data from Saudi Food and Drug Authority (SFDA)
 
 ## Source
 
