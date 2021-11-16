@@ -13,12 +13,40 @@ MedDevices is a data package has data set of medical devices and medical devices
 
 `device_name` Name of the device.
 
-`device_classification` Denoting the class of the device base on hospital department that the device used in.It include 13 classes
+`device_classification` The class of the device base on hospital department that the device used in.It include 13 classes.
 
-`manufacturers_name` Name of device's manufacturer
+`manufacturers_name` Name of device's manufacturer.
 
-`parent_company` Name of manfacturer's parent company
+`parent_company` Name of manufacturer's parent company.
 
+`distributed_to` The spatial distribution of the device.
+
+`implanted` The device implantable or not. 
+
+`risk_class` The class of the device base on risk level.
+
+`reason` The potential danger due to recalled malfunction.
+
+`determined_cause` The cause of the malfunction.
+
+`Recall_classification` The relative degree of risk.
+
+`date_initiated_by_firm` Initiation date of recall by the company.
+
+`date_posted` Date of posting the recall by FDA in database.
+
+`date_terminated` Date of terminating the recall.
+
+## Target
+
+This package was build to provide a public, easy to read and easy to download data for medical devices. 
+The data can be used:
+
+- As a learning tool of data science and Rstodio.
+
+- NLP analysis projects.
+
+- Devices evaluation, by health authorities, the hospital, medical company, field service biomedical engineers. to 
 
 ## Installation
 
@@ -29,12 +57,6 @@ You can install the development version of MedDevices from [GitHub](https://gith
 devtools::install_github("sahar979/MedDevices")
 ```
 
-## Example
+## Source
 
-This is a basic example which shows you how to solve a common problem:
-
-``` r
-library(MedDevices)
-## basic example code
-```
-
+Source of the raw data: [ICIJ](https://medicaldevices.icij.org/p/download)
